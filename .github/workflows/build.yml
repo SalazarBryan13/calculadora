@@ -17,3 +17,9 @@ jobs:
       - name: Compilar
         run: npm run build
         working-directory: calculadora
+      - name: Lint
+        run: npm run lint
+        working-directory: calculadora
+      - name: Test
+        run: npm test
+        working-directory: calculadora
